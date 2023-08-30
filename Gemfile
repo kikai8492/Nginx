@@ -22,6 +22,9 @@ gem 'net-smtp'
 gem 'net-imap'
 gem 'net-pop'
 
+gem 'unicorn'
+gem 'unicorn-rails'
+
 gem 'bootsnap', '>= 1.4.4', require: false
 
 group :development, :test do
